@@ -8,8 +8,8 @@
         Title="Együttesek" Height="450" Width="800">
     <Grid>
         <DataGrid x:Name="dataGrid1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,227,10"/>
-        <Button x:Name="button1" Content="Leghosszabb album" HorizontalAlignment="Left" Margin="621,42,0,0" VerticalAlignment="Top" Width="121" Height="20"/>
-        <Button x:Name="button2" Content="Tagok száma" HorizontalAlignment="Left" Margin="621,83,0,0" VerticalAlignment="Top" Width="121"/>
+        <Button x:Name="button1" Content="Leghosszabb album" HorizontalAlignment="Left" Margin="621,42,0,0" VerticalAlignment="Top" Width="121" Height="20" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Tagok száma" HorizontalAlignment="Left" Margin="621,83,0,0" VerticalAlignment="Top" Width="121" Click="button2_Click"/>
         <Button x:Name="button3" Content="Kilépés" HorizontalAlignment="Left" Margin="621,378,0,0" VerticalAlignment="Top" Width="121" Click="button3_Click"/>
 
     </Grid>
