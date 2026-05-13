@@ -1,0 +1,16 @@
+﻿<Window x:Class="Egyuttesek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Egyuttesek"
+        mc:Ignorable="d"
+        Title="Együttesek" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGrid1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,227,10"/>
+        <Button x:Name="button1" Content="Leghosszabb album" HorizontalAlignment="Left" Margin="621,42,0,0" VerticalAlignment="Top" Width="121" Height="20"/>
+        <Button x:Name="button2" Content="Tagok száma" HorizontalAlignment="Left" Margin="621,83,0,0" VerticalAlignment="Top" Width="121"/>
+        <Button x:Name="button3" Content="Kilépés" HorizontalAlignment="Left" Margin="621,378,0,0" VerticalAlignment="Top" Width="121" Click="button3_Click"/>
+
+    </Grid>
+</Window>
